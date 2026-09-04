@@ -6,5 +6,4 @@ for i in range(len(nums)):
 
     if req in known:
         print([known[req], i])
-
-    known[nums[i]] = i
+known[nums[i]] = i
